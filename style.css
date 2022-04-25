@@ -28,6 +28,7 @@ h1{
     text-transform: uppercase;
     margin-bottom: 2rem;
     color: #222;
+    text-align: center;
 }
 .text{
     font-size: 3rem;
