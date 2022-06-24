@@ -1,8 +1,8 @@
 const countdown = ()=>{
-    const july = 'July 01, 2022 00:00:00'
-    const julyDate = new Date(july).getTime()
+    const aug = 'August 22, 2022 00:00:00'
+    const augDate = new Date(aug).getTime()
     const now = new Date().getTime()
-    const diff = julyDate - now
+    const diff = augDate - now
     
     const sec = 1000
     const min = sec * 60
