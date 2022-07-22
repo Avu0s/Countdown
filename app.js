@@ -1,5 +1,5 @@
 const countdown = ()=>{
-    const aug = 'August 22, 2022 00:00:00'
+    const aug = 'January 01, 2023 00:00:00'
     const augDate = new Date(aug).getTime()
     const now = new Date().getTime()
     const diff = augDate - now
