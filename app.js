@@ -1,8 +1,8 @@
 const countdown = ()=>{
-    const aug = 'January 01, 2023 00:00:00'
-    const augDate = new Date(aug).getTime()
+    const jan = 'January 01, 2024 00:00:00'
+    const janDate = new Date(jan).getTime()
     const now = new Date().getTime()
-    const diff = augDate - now
+    const diff = janDate - now
     
     const sec = 1000
     const min = sec * 60
